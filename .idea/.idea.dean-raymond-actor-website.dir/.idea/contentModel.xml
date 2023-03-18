@@ -8,6 +8,7 @@
     <e p="C:\Users\Tom\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\Users\Tom\RiderProjects\dean-raymond-actor-website" t="IncludeFlat">
       <e p="node_modules\@apideck\better-ajv-errors" t="IncludeRecursive" />
+      <e p="node_modules\@babel\core" t="IncludeRecursive" />
       <e p="node_modules\@babel\parser" t="IncludeRecursive" />
       <e p="node_modules\@babel\types" t="IncludeRecursive" />
       <e p="node_modules\@bcoe\v8-coverage" t="IncludeRecursive" />
@@ -55,6 +56,7 @@
       <e p="node_modules\@rollup\plugin-node-resolve" t="IncludeRecursive" />
       <e p="node_modules\@rollup\plugin-replace" t="IncludeRecursive" />
       <e p="node_modules\@rollup\pluginutils" t="IncludeRecursive" />
+      <e p="node_modules\@svgr\webpack" t="IncludeRecursive" />
       <e p="node_modules\@testing-library\dom" t="IncludeRecursive" />
       <e p="node_modules\@testing-library\jest-dom" t="IncludeRecursive" />
       <e p="node_modules\@testing-library\react" t="IncludeRecursive" />
@@ -99,8 +101,14 @@
       <e p="node_modules\array-flatten" t="IncludeRecursive" />
       <e p="node_modules\autoprefixer" t="IncludeRecursive" />
       <e p="node_modules\babel-jest" t="IncludeRecursive" />
+      <e p="node_modules\babel-loader" t="IncludeRecursive" />
+      <e p="node_modules\babel-plugin-named-asset-import" t="IncludeRecursive" />
+      <e p="node_modules\babel-preset-react-app" t="IncludeRecursive" />
+      <e p="node_modules\bfj" t="IncludeRecursive" />
       <e p="node_modules\bonjour-service" t="IncludeRecursive" />
       <e p="node_modules\browserslist" t="IncludeRecursive" />
+      <e p="node_modules\camelcase" t="IncludeRecursive" />
+      <e p="node_modules\case-sensitive-paths-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\chalk" t="IncludeRecursive" />
       <e p="node_modules\chokidar" t="IncludeRecursive" />
       <e p="node_modules\chrome-trace-event" t="IncludeRecursive" />
@@ -113,6 +121,7 @@
       <e p="node_modules\commander" t="IncludeRecursive" />
       <e p="node_modules\cosmiconfig" t="IncludeRecursive" />
       <e p="node_modules\css-declaration-sorter" t="IncludeRecursive" />
+      <e p="node_modules\css-loader" t="IncludeRecursive" />
       <e p="node_modules\css-minimizer-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\cssnano" t="IncludeRecursive" />
       <e p="node_modules\cssnano-preset-default" t="IncludeRecursive" />
@@ -126,6 +135,8 @@
       <e p="node_modules\error-stack-parser" t="IncludeRecursive" />
       <e p="node_modules\es-module-lexer" t="IncludeRecursive" />
       <e p="node_modules\escalade" t="IncludeRecursive" />
+      <e p="node_modules\eslint" t="IncludeRecursive" />
+      <e p="node_modules\eslint-config-react-app" t="IncludeRecursive" />
       <e p="node_modules\eslint-visitor-keys" t="IncludeRecursive" />
       <e p="node_modules\eslint-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\estree-walker" t="IncludeRecursive" />
@@ -133,14 +144,17 @@
       <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
       <e p="node_modules\fast-glob" t="IncludeRecursive" />
       <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+      <e p="node_modules\file-loader" t="IncludeRecursive" />
       <e p="node_modules\filesize" t="IncludeRecursive" />
       <e p="node_modules\fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\fraction.js" t="IncludeRecursive" />
+      <e p="node_modules\fs-extra" t="IncludeRecursive" />
       <e p="node_modules\gh-pages" t="IncludeRecursive" />
       <e p="node_modules\html-entities" t="IncludeRecursive" />
       <e p="node_modules\html-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\http-proxy-middleware" t="IncludeRecursive" />
       <e p="node_modules\idb" t="IncludeRecursive" />
+      <e p="node_modules\identity-obj-proxy" t="IncludeRecursive" />
       <e p="node_modules\ipaddr.js" t="IncludeRecursive" />
       <e p="node_modules\jest" t="IncludeRecursive" />
       <e p="node_modules\jest-changed-files" t="IncludeRecursive" />
@@ -167,6 +181,7 @@
       <e p="node_modules\jest-snapshot" t="IncludeRecursive" />
       <e p="node_modules\jest-util" t="IncludeRecursive" />
       <e p="node_modules\jest-validate" t="IncludeRecursive" />
+      <e p="node_modules\jest-watch-typeahead" t="IncludeRecursive" />
       <e p="node_modules\jest-watcher" t="IncludeRecursive" />
       <e p="node_modules\jest-worker" t="IncludeRecursive" />
       <e p="node_modules\json5" t="IncludeRecursive" />
@@ -189,7 +204,9 @@
       <e p="node_modules\postcss-discard-duplicates" t="IncludeRecursive" />
       <e p="node_modules\postcss-discard-empty" t="IncludeRecursive" />
       <e p="node_modules\postcss-discard-overridden" t="IncludeRecursive" />
+      <e p="node_modules\postcss-flexbugs-fixes" t="IncludeRecursive" />
       <e p="node_modules\postcss-load-config" t="IncludeRecursive" />
+      <e p="node_modules\postcss-loader" t="IncludeRecursive" />
       <e p="node_modules\postcss-merge-longhand" t="IncludeRecursive" />
       <e p="node_modules\postcss-merge-rules" t="IncludeRecursive" />
       <e p="node_modules\postcss-minify-font-values" t="IncludeRecursive" />
@@ -207,6 +224,7 @@
       <e p="node_modules\postcss-normalize-url" t="IncludeRecursive" />
       <e p="node_modules\postcss-normalize-whitespace" t="IncludeRecursive" />
       <e p="node_modules\postcss-ordered-values" t="IncludeRecursive" />
+      <e p="node_modules\postcss-preset-env" t="IncludeRecursive" />
       <e p="node_modules\postcss-reduce-initial" t="IncludeRecursive" />
       <e p="node_modules\postcss-reduce-transforms" t="IncludeRecursive" />
       <e p="node_modules\postcss-selector-parser" t="IncludeRecursive" />
@@ -214,20 +232,29 @@
       <e p="node_modules\postcss-unique-selectors" t="IncludeRecursive" />
       <e p="node_modules\pretty-error" t="IncludeRecursive" />
       <e p="node_modules\pretty-format" t="IncludeRecursive" />
+      <e p="node_modules\prompts" t="IncludeRecursive" />
       <e p="node_modules\react" t="IncludeRecursive" />
+      <e p="node_modules\react-app-polyfill" t="IncludeRecursive" />
+      <e p="node_modules\react-dev-utils" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
+      <e p="node_modules\react-refresh" t="IncludeRecursive" />
       <e p="node_modules\react-router" t="IncludeRecursive" />
       <e p="node_modules\react-router-dom" t="IncludeRecursive" />
-      <e p="node_modules\react-scripts" t="IncludeRecursive" />
+      <e p="node_modules\resolve" t="IncludeRecursive" />
+      <e p="node_modules\resolve-url-loader" t="IncludeRecursive" />
       <e p="node_modules\resolve.exports" t="IncludeRecursive" />
       <e p="node_modules\rollup" t="IncludeRecursive" />
       <e p="node_modules\rollup-plugin-terser" t="IncludeRecursive" />
+      <e p="node_modules\sass-loader" t="IncludeRecursive" />
       <e p="node_modules\schema-utils" t="IncludeRecursive" />
       <e p="node_modules\selfsigned" t="IncludeRecursive" />
+      <e p="node_modules\semver" t="IncludeRecursive" />
       <e p="node_modules\source-map" t="IncludeRecursive" />
       <e p="node_modules\source-map-js" t="IncludeRecursive" />
+      <e p="node_modules\source-map-loader" t="IncludeRecursive" />
       <e p="node_modules\sourcemap-codec" t="IncludeRecursive" />
       <e p="node_modules\stackframe" t="IncludeRecursive" />
+      <e p="node_modules\style-loader" t="IncludeRecursive" />
       <e p="node_modules\stylehacks" t="IncludeRecursive" />
       <e p="node_modules\tailwindcss" t="IncludeRecursive" />
       <e p="node_modules\tapable" t="IncludeRecursive" />
@@ -243,6 +270,7 @@
       <e p="node_modules\webpack" t="IncludeRecursive" />
       <e p="node_modules\webpack-dev-middleware" t="IncludeRecursive" />
       <e p="node_modules\webpack-dev-server" t="IncludeRecursive" />
+      <e p="node_modules\webpack-manifest-plugin" t="IncludeRecursive" />
       <e p="node_modules\workbox-background-sync" t="IncludeRecursive" />
       <e p="node_modules\workbox-broadcast-update" t="IncludeRecursive" />
       <e p="node_modules\workbox-build" t="IncludeRecursive" />

@@ -1,4 +1,3 @@
-import './App.css';
 import NavBar from "./Layout/NavBar";
 import React from "react";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
