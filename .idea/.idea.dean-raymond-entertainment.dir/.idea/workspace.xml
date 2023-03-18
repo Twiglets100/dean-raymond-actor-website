@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcfb2f9a-e619-40f6-9e2a-c48bed67c27e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ActionCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/background.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/deans logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/gallery/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/home/dean.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/home/jack and the beanstalk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/home/red riding hood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/home/sefton park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imgs/magic-hat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Layout/Theme.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/Components/ActionCard.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Layout/NavBar.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gallery/Gallery.js" />
+        <option value="$PROJECT_DIR$/src/Pages/Home/Home.js" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Tom\repos\dean.com\dean-raymond-entertainment\.idea\.idea.dean-raymond-entertainment.dir\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NBoXtQWBNJexBUGEh5jA9kkCmM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\JetBrains Rider 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfb2f9a-e619-40f6-9e2a-c48bed67c27e" name="Default Changelist" comment="" />
+      <created>1679146880189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679146880189</updated>
+      <workItem from="1679146883993" duration="20587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1679150011471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1679150011471" />
+    <state x="503" y="99" width="1047" height="804" key="find.popup" timestamp="1679150835192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="99" width="1047" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1679150835192" />
+  </component>
+</project>
