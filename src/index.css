@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background-image: url("./imgs/background.avif");
+  background-image: url("./imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
