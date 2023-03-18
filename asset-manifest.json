@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dean-raymond-actor-website/static/css/main.6486cb36.css",
+    "main.css": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css",
     "main.js": "/dean-raymond-actor-website/static/js/main.5858de7c.js",
     "static/media/landing.jpg": "/dean-raymond-actor-website/static/media/landing.898ca43598355e23a1b8.jpg",
     "static/media/10.jpg": "/dean-raymond-actor-website/static/media/10.6c1db4b85b3c0b9ef6e5.jpg",
@@ -20,13 +20,13 @@
     "static/media/5.jpg": "/dean-raymond-actor-website/static/media/5.a51db538a8dc460bdfdb.jpg",
     "static/media/7.jpg": "/dean-raymond-actor-website/static/media/7.bc1ffb17f7d255153c56.jpg",
     "static/media/dean.jpeg": "/dean-raymond-actor-website/static/media/dean.b19bcd0a80aaa0590314.jpeg",
-    "static/media/background.avif": "/dean-raymond-actor-website/static/media/background.be8ecdde4e812857572d.avif",
+    "static/media/background.jpg": "/dean-raymond-actor-website/static/media/background.5c8c18a434bbccba6119.jpg",
     "index.html": "/dean-raymond-actor-website/index.html",
-    "main.6486cb36.css.map": "/dean-raymond-actor-website/static/css/main.6486cb36.css.map",
+    "main.9ce3ac81.css.map": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css.map",
     "main.5858de7c.js.map": "/dean-raymond-actor-website/static/js/main.5858de7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6486cb36.css",
+    "static/css/main.9ce3ac81.css",
     "static/js/main.5858de7c.js"
   ]
 }
