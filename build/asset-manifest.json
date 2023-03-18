@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css",
+    "main.js": "/dean-raymond-actor-website/static/js/main.5858de7c.js",
+    "static/media/landing.jpg": "/dean-raymond-actor-website/static/media/landing.898ca43598355e23a1b8.jpg",
+    "static/media/10.jpg": "/dean-raymond-actor-website/static/media/10.6c1db4b85b3c0b9ef6e5.jpg",
+    "static/media/jack and the beanstalk.jpg": "/dean-raymond-actor-website/static/media/jack and the beanstalk.66e2ecef5659bab64be0.jpg",
+    "static/media/1.jpg": "/dean-raymond-actor-website/static/media/1.2b30730c34a4e4af2af8.jpg",
+    "static/media/9.jpg": "/dean-raymond-actor-website/static/media/9.1906ca71b964caf75798.jpg",
+    "static/media/11.jpg": "/dean-raymond-actor-website/static/media/11.f45959838a7d2cf90093.jpg",
+    "static/media/red riding hood.jpg": "/dean-raymond-actor-website/static/media/red riding hood.e8375ae8ba5312e71f4f.jpg",
+    "static/media/3.jpg": "/dean-raymond-actor-website/static/media/3.c946a291d51233571972.jpg",
+    "static/media/deans logo.png": "/dean-raymond-actor-website/static/media/deans logo.60c8972df7be7a5afbca.png",
+    "static/media/sefton park.jpg": "/dean-raymond-actor-website/static/media/sefton park.182381d5400fb33100f9.jpg",
+    "static/media/6.jpg": "/dean-raymond-actor-website/static/media/6.c941a0bffc471d0b6add.jpg",
+    "static/media/12.jpg": "/dean-raymond-actor-website/static/media/12.1c65605f17fdd706d2e1.jpg",
+    "static/media/4.jpg": "/dean-raymond-actor-website/static/media/4.16f6c3f7a5b5e0f854bf.jpg",
+    "static/media/8.jpg": "/dean-raymond-actor-website/static/media/8.40f81d7b6f92eb839bec.jpg",
+    "static/media/2.jpg": "/dean-raymond-actor-website/static/media/2.8f7b12ed42107b29708b.jpg",
+    "static/media/5.jpg": "/dean-raymond-actor-website/static/media/5.a51db538a8dc460bdfdb.jpg",
+    "static/media/7.jpg": "/dean-raymond-actor-website/static/media/7.bc1ffb17f7d255153c56.jpg",
+    "static/media/dean.jpeg": "/dean-raymond-actor-website/static/media/dean.b19bcd0a80aaa0590314.jpeg",
+    "static/media/background.jpg": "/dean-raymond-actor-website/static/media/background.5c8c18a434bbccba6119.jpg",
+    "index.html": "/dean-raymond-actor-website/index.html",
+    "main.9ce3ac81.css.map": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css.map",
+    "main.5858de7c.js.map": "/dean-raymond-actor-website/static/js/main.5858de7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ce3ac81.css",
+    "static/js/main.5858de7c.js"
+  ]
+}
