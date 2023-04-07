@@ -39,6 +39,11 @@
       <e p="node_modules\@jridgewell\source-map" t="IncludeRecursive" />
       <e p="node_modules\@jridgewell\sourcemap-codec" t="IncludeRecursive" />
       <e p="node_modules\@jridgewell\trace-mapping" t="IncludeRecursive" />
+      <e p="node_modules\@material-ui\core" t="IncludeRecursive" />
+      <e p="node_modules\@material-ui\styles" t="IncludeRecursive" />
+      <e p="node_modules\@material-ui\system" t="IncludeRecursive" />
+      <e p="node_modules\@material-ui\types" t="IncludeRecursive" />
+      <e p="node_modules\@material-ui\utils" t="IncludeRecursive" />
       <e p="node_modules\@mui\base" t="IncludeRecursive" />
       <e p="node_modules\@mui\icons-material" t="IncludeRecursive" />
       <e p="node_modules\@mui\material" t="IncludeRecursive" />
@@ -156,6 +161,7 @@
       <e p="node_modules\idb" t="IncludeRecursive" />
       <e p="node_modules\identity-obj-proxy" t="IncludeRecursive" />
       <e p="node_modules\ipaddr.js" t="IncludeRecursive" />
+      <e p="node_modules\is-in-browser" t="IncludeRecursive" />
       <e p="node_modules\jest" t="IncludeRecursive" />
       <e p="node_modules\jest-changed-files" t="IncludeRecursive" />
       <e p="node_modules\jest-circus" t="IncludeRecursive" />
@@ -186,6 +192,14 @@
       <e p="node_modules\jest-worker" t="IncludeRecursive" />
       <e p="node_modules\json5" t="IncludeRecursive" />
       <e p="node_modules\jsonpointer" t="IncludeRecursive" />
+      <e p="node_modules\jss" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-camel-case" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-default-unit" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-global" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-nested" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-props-sort" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-rule-value-function" t="IncludeRecursive" />
+      <e p="node_modules\jss-plugin-vendor-prefixer" t="IncludeRecursive" />
       <e p="node_modules\kleur" t="IncludeRecursive" />
       <e p="node_modules\klona" t="IncludeRecursive" />
       <e p="node_modules\lilconfig" t="IncludeRecursive" />
@@ -196,6 +210,7 @@
       <e p="node_modules\nanoid" t="IncludeRecursive" />
       <e p="node_modules\picocolors" t="IncludeRecursive" />
       <e p="node_modules\pirates" t="IncludeRecursive" />
+      <e p="node_modules\popper.js" t="IncludeRecursive" />
       <e p="node_modules\postcss" t="IncludeRecursive" />
       <e p="node_modules\postcss-calc" t="IncludeRecursive" />
       <e p="node_modules\postcss-colormin" t="IncludeRecursive" />
@@ -260,6 +275,7 @@
       <e p="node_modules\tapable" t="IncludeRecursive" />
       <e p="node_modules\terser" t="IncludeRecursive" />
       <e p="node_modules\terser-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules\tiny-warning" t="IncludeRecursive" />
       <e p="node_modules\tslib" t="IncludeRecursive" />
       <e p="node_modules\type-fest" t="IncludeRecursive" />
       <e p="node_modules\upath" t="IncludeRecursive" />

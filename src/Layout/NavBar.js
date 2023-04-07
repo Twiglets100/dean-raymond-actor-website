@@ -7,10 +7,11 @@ import Button from '@mui/material/Button';
 import logo from '../imgs/deans logo.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import SvgIcon from "@mui/material/SvgIcon";
 import {Link} from "react-router-dom";
 
-const pages = ['Home', 'Info', 'Specialist acts', "Acting", "Currently ‘working on’ shows", "Gallery", "Reviews"];
+const pages = ['Home', 'Speciality Acts', "Acting", "Upcoming", "Gallery", "Reviews"];
 
 function NavBar() {
     return (
@@ -33,6 +34,7 @@ function NavBar() {
                         ))}
                     </Box>
                     <SvgIcon component={InstagramIcon} inheritViewBox style={{marginRight: "8px"}} />
+                    <SvgIcon component={TwitterIcon} inheritViewBox style={{marginRight: "12px"}} />
                     <SvgIcon component={FacebookIcon} inheritViewBox style={{marginRight: "12px"}} />
                     <Button variant="contained" color={"secondary"} size={"medium"}>Enquire Now</Button>
                 </Toolbar>

@@ -2,11 +2,10 @@ import React from 'react';
 import landing from '../../imgs/landing.jpg'
 import Button from "@mui/material/Button";
 import ActionCard from "../../Components/ActionCard";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
+import {Typography} from "@mui/material";
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
@@ -50,8 +49,10 @@ function Home() {
                     padding: "24px",
                     width: "40%"
                 }}>
-                    <p style={{margin: "24px"}}>The Comedy Illusionist to make your audience <br/>laugh, smile and drop their jaws!</p>
-                    <Button variant="contained" color={"secondary"} size={"large"}>Enquire Now</Button>
+                    <p style={{margin: "24px", textAlign: "center"}}>Unleash the laughter and wonder: The Comedy Illusionist who'll Keep your audience smiling, laughing, and gasping!</p>
+                    <div style={{display: "flex", justifyContent: "center"}}>
+                        <Button variant="contained" color={"secondary"} size={"large"}>Enquire Now</Button>
+                    </div>
                 </div>
             </div>
             <Card sx={{width: "55%", margin: "24px auto"}}>
@@ -59,19 +60,12 @@ function Home() {
                     <CardContent style={{}}>
                         <div>
                             <div>
+                                <Typography variant="h5" component="h2">A bit about Dean </Typography>
                                 <p>
-                                    Dean is a Welsh Actor, Magician and Ventriloquist from Llandudno. Dean has been a 
-                                    magician for the last 13 years and his work ranges from TV and Film, to plays, Magic 
-                                    and Pantomime. Dean trained at Italia Conti Theatre Academy in London and LMA in Liverpool.
-                                </p>
-                                <p>
-                                    Over the last few years Dean’s work has expanded with a new skill set of 
-                                    Ventriloquism which has been seen in Liverpool’s Pantomime over the last 2 years.
-                                </p>
-                                <p>
-                                    As an actor Dean’s TV and film work has ranged from series such as BBC Craith/Hidden 
-                                    series, S4C’s Priodas pump mil, commercials such as Sky Sports and film such as 
-                                    ‘Almond and the sea horse’ featuring Rebel Wilson.
+                                    Dean is a multi-talented entertainer from Llandudno, Wales. He's an actor, magician, and ventriloquist who has been performing for over a decade. Dean's work has been featured on both TV and film, including appearances on the BBC's Craith/Hidden series, S4C's Priodas pump mil, and commercials such as Sky Sports. He has also acted in films like 'Almond and the Seahorse,' which features Rebel Wilson.
+                                <br/>
+                                <br/>
+                                    Dean trained at Italia Conti Theatre Academy in London and LMA in Liverpool. Over the years, he has expanded his repertoire to include ventriloquism, which he has showcased in Liverpool's Pantomime for the past two years. With his unique blend of comedy, illusion, and acting, Dean is sure to leave your audience laughing, smiling, and amazed.
                                 </p>
                             </div>
                         </div>
@@ -81,7 +75,7 @@ function Home() {
             </Card>
             <div style={{display: "flex", margin: "auto", width: "75%", marginTop: "42px"}}>
                 <div style={{flexGrow: 1}}>
-                    <ActionCard image={images["red riding hood.jpg"]} title="Red Riding Hood (Jan 2023), Magic Light Productions" content={redRidingHoodDesc} style={{width: "300px"}} />
+                        <ActionCard image={images["red riding hood.jpg"]} title="Red Riding Hood (Jan 2023), Magic Light Productions" content={redRidingHoodDesc} style={{width: "300px"}} />
                 </div>
                 <div style={{flexGrow: 1}}>
                     <ActionCard image={images["jack and the beanstalk.jpg"]} title="Jack & The Beanstalk (Dec 2022), Just Entertainment" content={jackAndTheBeanstalkDesc} />
