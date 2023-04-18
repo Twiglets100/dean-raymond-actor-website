@@ -9,6 +9,8 @@ import Gallery from "./Components/Gallery/Gallery";
 import SpecialityActs from "./Pages/SpecialistActs/SpecialityActs";
 import Acting from "./Pages/Acting/Acting";
 import Upcoming from "./Pages/Upcoming/Upcoming";
+import EnquireNow from "./Pages/EnquireNow/EnquireNow";
+import Pantomime from "./Pages/Pantomime/Pantomime";
 
 function App() {
     return (
@@ -21,8 +23,10 @@ function App() {
                             <Route index element={<Home/>}/>
                             <Route path="Speciality Acts" element={<SpecialityActs/>}/>
                             <Route path="Acting" element={<Acting/>}/>
+                            <Route path="Pantomime" element={<Pantomime/>}/>
                             <Route path="Upcoming" element={<Upcoming/>}/>
                             <Route path="gallery" element={<Gallery/>}/>
+                            <Route path="EnquireNow" element={<EnquireNow/>}/>
                             <Route path="*" element={<Home/>}/>
                         </Routes>
                     </BrowserRouter>

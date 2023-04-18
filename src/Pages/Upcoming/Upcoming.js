@@ -31,21 +31,25 @@ const performances = [
         location: 'The Blackpool Tower Circus',
     },
     {
-        title: 'High Jinx at Blackpool Tower Circus',
-        description: 'Description of Performance 2',
-        imageUrl: images["2.jpg"],
-        date: 'June 2, 2022',
-        time: '7:30 PM',
-        location: 'Example Theater',
-    },
+        title: 'Autism and Sea',
+        description: 'Autism & Sea LIVE is based on a series of books written and illustrated by Amy Le Dain. ' +
+        'An immersive and sensory show created for kids aged 3+. ' +
+        'Join three special under-the-sea characters, Finn, Ollie & Astrid, on their first day of school. In this immersive show experience, ' +
+            'no one character is the same and each experiences autism very differently just like us humans. This performance will take place in a Relaxed atmosphere.',
+        imageUrl: images["Autism & Sea.png"],
+        date: 'November Touring',
+        time: 'N/A',
+        location: 'Touring',
+},
     {
-        title: 'High Jinx at Blackpool Tower Circus',
-        description: 'Description of Performance 2',
-        imageUrl: images["2.jpg"],
-        date: 'June 2, 2022',
-        time: '7:30 PM',
-        location: 'Example Theater',
-    },
+        title: 'The Magic of Red Riding Hood',
+        description: '',
+        imageUrl: images["Red Riding Hood.jpg"],
+        date: 'Summer Touring',
+        time: 'N/A',
+        location: 'Touring',
+
+},
     // Add additional performances as needed
 ];
 

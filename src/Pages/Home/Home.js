@@ -6,6 +6,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import {Typography} from "@mui/material";
+import {Link} from "react-router-dom";
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
@@ -51,7 +52,7 @@ function Home() {
                 }}>
                     <p style={{margin: "24px", textAlign: "center"}}>Unleash the laughter and wonder: The Comedy Illusionist who'll Keep your audience smiling, laughing, and gasping!</p>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <Button variant="contained" color={"secondary"} size={"large"}>Enquire Now</Button>
+                        <Button variant="contained" color={"secondary"} size={"large"} component={Link} to="/EnquireNow">Enquire Now</Button>
                     </div>
                 </div>
             </div>
@@ -73,9 +74,9 @@ function Home() {
                     <CardMedia component="img" image={images["dean.jpeg"]} style={{width: "300px"}} />
                 </div>
             </Card>
-            <div style={{display: "flex", margin: "auto", width: "75%", marginTop: "42px"}}>
+            <div style={{display: "flex", margin: "auto", width: "70%", marginTop: "42px"}}>
                 <div style={{flexGrow: 1}}>
-                        <ActionCard image={images["red riding hood.jpg"]} title="Red Riding Hood (Jan 2023), Magic Light Productions" content={redRidingHoodDesc} style={{width: "300px"}} />
+                    <ActionCard image={images["red riding hood.jpg"]} title="Red Riding Hood (Jan 2023), Magic Light Productions" content={redRidingHoodDesc} style={{width: "300px"}} />
                 </div>
                 <div style={{flexGrow: 1}}>
                     <ActionCard image={images["jack and the beanstalk.jpg"]} title="Jack & The Beanstalk (Dec 2022), Just Entertainment" content={jackAndTheBeanstalkDesc} />

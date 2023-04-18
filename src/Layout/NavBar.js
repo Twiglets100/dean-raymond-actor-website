@@ -11,14 +11,16 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import SvgIcon from "@mui/material/SvgIcon";
 import {Link} from "react-router-dom";
 
-const pages = ['Home', 'Speciality Acts', "Acting", "Upcoming", "Gallery", "Reviews"];
+const pages = ['Home', 'Speciality Acts', "Pantomime", "Acting", "Upcoming", "Gallery", "Reviews"];
 
 function NavBar() {
     return (
         <AppBar position="sticky">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <img src={logo} style={{height: "60px", margin: "12px 8px"}} />
+                    <Link to="/Home">
+                        <img src={logo} style={{height: "60px", margin: "12px 8px"}} />
+                    </Link>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Button
@@ -36,7 +38,7 @@ function NavBar() {
                     <SvgIcon component={InstagramIcon} inheritViewBox style={{marginRight: "8px"}} />
                     <SvgIcon component={TwitterIcon} inheritViewBox style={{marginRight: "12px"}} />
                     <SvgIcon component={FacebookIcon} inheritViewBox style={{marginRight: "12px"}} />
-                    <Button variant="contained" color={"secondary"} size={"medium"}>Enquire Now</Button>
+                    <Button variant="contained" color={"secondary"} size={"medium"} component={Link} to="/EnquireNow">Enquire Now</Button>
                 </Toolbar>
             </Container>
         </AppBar>

@@ -24,7 +24,8 @@ export function SpecialistCard(props) {
             <CardMedia
                 style={{
                     height: 300,
-                    backgroundSize: "cover"
+                    backgroundSize: "cover",
+                    backgroundPosition: "center " + props.imageOffsetY
                 }}
                 image={props.image}
                 title={props.title}
@@ -71,7 +72,7 @@ const SpecialistModal = ({ modalName, isOpen, onClose, fullDescription }) => {
             <Box style={style}>
                 <Typography variant="h4">{modalName}</Typography>
                 <div>
-                    <Typography variant="body2" component="p">
+                    <Typography variant="body2" component="p" sx={{whiteSpace: "pre-line"}}>
                         {fullDescription}
                     </Typography>
                 </div>
