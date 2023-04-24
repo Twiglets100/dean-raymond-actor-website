@@ -90,21 +90,21 @@ function SpecialityActs() {
             <Grid container spacing={2} style={{width: "80%", margin: "auto"}}>
                 <Grid item xs={12} sm={6} md={4}>
                     <SpecialistCard
-                        title="Magic Act" cardStyle={cardStyle} image={images["magic.jpeg"]} fullDescription={fullDescriptions.magic}
+                        title="Magic Act" cardStyle={cardStyle} image={images["magic-min.jpeg"]} fullDescription={fullDescriptions.magic}
                         description="Our magic act will leave you spellbound! Watch as our illusionist makes objects disappear and reappear right before your eyes."
                     />
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
                     <SpecialistCard
-                        title="Ventriloquism Act" cardStyle={cardStyle} image={images["ventriloquism.jpg"]} fullDescription={fullDescriptions.ventriloquism}
+                        title="Ventriloquism Act" cardStyle={cardStyle} image={images["ventriloquism-min.jpg"]} fullDescription={fullDescriptions.ventriloquism}
                         description="Dean has been working with puppets for 10 years and over the last 4 years has become a ventriloquist. This ventriloquist act will have you laughing out loud! Watch as our master puppeteer brings his characters to life and interacts with the audience."
                     />
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={4}>
                     <SpecialistCard
-                        title="Illusionist Act" cardStyle={cardStyle} imageOffsetY="35%" image={images["illusionist.jpg"]} fullDescription={fullDescriptions.illusions}
+                        title="Illusionist Act" cardStyle={cardStyle} imageOffsetY="35%" image={images["illusionist-min.jpg"]} fullDescription={fullDescriptions.illusions}
                         description="Our illusionist act will leave you amazed! Watch as our master magician performs mind-bending illusions and escapes that will have you questioning what is real and what is not."
                     />
                 </Grid>

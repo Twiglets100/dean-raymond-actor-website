@@ -40,7 +40,7 @@ const performances = [
         date: 'November Touring',
         time: 'N/A',
         location: 'Touring',
-},
+    },
     {
         title: 'The Magic of Red Riding Hood',
         description: '',
@@ -49,7 +49,18 @@ const performances = [
         time: 'N/A',
         location: 'Touring',
 
-},
+    },
+    {
+        title: 'Kitchen Sink',
+        description: 'An irresistibly funny play about big dreams and small changes.\n' +
+            'Amid the dreaming, the dramas and the dirty dishes, something has to give. But will it be Kath or the ' +
+            'kitchen sink? Things aren\'t going to plan for one family in Withernsea, Yorkshire.\n',
+        imageUrl: images["Kitchen Sink.png"],
+        date: '19th - 20th of June, 2022',
+        time: '7:30 PM',
+        location: 'Theatre Colwyn',
+
+    },
     // Add additional performances as needed
 ];
 

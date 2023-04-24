@@ -1,5 +1,4 @@
 import React from 'react';
-import landing from '../../imgs/landing.jpg'
 import Button from "@mui/material/Button";
 import ActionCard from "../../Components/ActionCard";
 import Card from "@mui/material/Card";
@@ -13,7 +12,7 @@ function importAll(r) {
     return images;
 }
 
-const images = importAll(require.context('../../imgs/home/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../imgs/home/', false, /\.(png|jpe?g|svg|webp)$/));
 
 const redRidingHoodDesc = "A magical pantomime based in North Wales. \n" +
     "Red Riding Hood alongside the Wizard of The Forest, " +
@@ -32,7 +31,7 @@ function Home() {
     return (
         <div>
             <div style={{
-                backgroundImage: `url(${landing})`,
+                backgroundImage: `url(${images["landing-min.webp"]})`,
                 backgroundSize: "100% auto",
                 height: "800px",
                 backgroundRepeat: "no-repeat",
@@ -79,7 +78,7 @@ function Home() {
                     <ActionCard image={images["red riding hood.jpg"]} title="Red Riding Hood (Jan 2023), Magic Light Productions" content={redRidingHoodDesc} style={{width: "300px"}} />
                 </div>
                 <div style={{flexGrow: 1}}>
-                    <ActionCard image={images["jack and the beanstalk.jpg"]} title="Jack & The Beanstalk (Dec 2022), Just Entertainment" content={jackAndTheBeanstalkDesc} />
+                    <ActionCard image={images["jack and the beanstalk-min.jpg"]} title="Jack & The Beanstalk (Dec 2022), Just Entertainment" content={jackAndTheBeanstalkDesc} />
                 </div>
                 <div style={{flexGrow: 1}}>
                     <ActionCard image={images["sefton park.jpg"]} title="Explore The Palms (May 2022), Sefton Park Palm House" content={exploreThePalmsDesc} />

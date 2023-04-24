@@ -11,26 +11,38 @@ import Acting from "./Pages/Acting/Acting";
 import Upcoming from "./Pages/Upcoming/Upcoming";
 import EnquireNow from "./Pages/EnquireNow/EnquireNow";
 import Pantomime from "./Pages/Pantomime/Pantomime";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
 function App() {
     return (
         <ThemeProvider theme={theme}>
             <div className="App">
-                <div>
-                    <BrowserRouter>
-                        <NavBar/>
-                        <Routes>
-                            <Route index element={<Home/>}/>
-                            <Route path="Speciality Acts" element={<SpecialityActs/>}/>
-                            <Route path="Acting" element={<Acting/>}/>
-                            <Route path="Pantomime" element={<Pantomime/>}/>
-                            <Route path="Upcoming" element={<Upcoming/>}/>
-                            <Route path="gallery" element={<Gallery/>}/>
-                            <Route path="EnquireNow" element={<EnquireNow/>}/>
-                            <Route path="*" element={<Home/>}/>
-                        </Routes>
-                    </BrowserRouter>
-                </div>
+                <Box component="div" style={{display: 'grid', gridTemplateRows: '1fr auto', minHeight: '100vh',}}>
+                    <Box style={{paddingBottom: theme.spacing(4)}}>
+                        <BrowserRouter>
+                            <NavBar/>
+                            <Routes>
+                                <Route index element={<Home/>}/>
+                                <Route path="Speciality Acts" element={<SpecialityActs/>}/>
+                                <Route path="Acting" element={<Acting/>}/>
+                                <Route path="Pantomime" element={<Pantomime/>}/>
+                                <Route path="Upcoming" element={<Upcoming/>}/>
+                                <Route path="gallery" element={<Gallery/>}/>
+                                <Route path="EnquireNow" element={<EnquireNow/>}/>
+                                <Route path="*" element={<Home/>}/>
+                            </Routes>
+                        </BrowserRouter>
+                    </Box>
+                    <Box component="footer" style={{backgroundColor: theme.palette.primary.main, color: theme.palette.common.white, padding: theme.spacing(2)}}>
+                        <Container>
+                            <Typography variant="body1" align="center">
+                                © 2023 Your Company. All rights reserved.
+                            </Typography>
+                        </Container>
+                    </Box>
+                </Box>
             </div>
         </ThemeProvider>
     );

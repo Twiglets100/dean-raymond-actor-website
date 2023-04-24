@@ -22,6 +22,7 @@
       <e p="node_modules\@emotion\styled" t="IncludeRecursive" />
       <e p="node_modules\@emotion\utils" t="IncludeRecursive" />
       <e p="node_modules\@emotion\weak-memoize" t="IncludeRecursive" />
+      <e p="node_modules\@formspree\react" t="IncludeRecursive" />
       <e p="node_modules\@jest\console" t="IncludeRecursive" />
       <e p="node_modules\@jest\core" t="IncludeRecursive" />
       <e p="node_modules\@jest\environment" t="IncludeRecursive" />
@@ -61,6 +62,8 @@
       <e p="node_modules\@rollup\plugin-node-resolve" t="IncludeRecursive" />
       <e p="node_modules\@rollup\plugin-replace" t="IncludeRecursive" />
       <e p="node_modules\@rollup\pluginutils" t="IncludeRecursive" />
+      <e p="node_modules\@stripe\react-stripe-js" t="IncludeRecursive" />
+      <e p="node_modules\@stripe\stripe-js" t="IncludeRecursive" />
       <e p="node_modules\@svgr\webpack" t="IncludeRecursive" />
       <e p="node_modules\@testing-library\dom" t="IncludeRecursive" />
       <e p="node_modules\@testing-library\jest-dom" t="IncludeRecursive" />

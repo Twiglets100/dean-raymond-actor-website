@@ -11,7 +11,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import SvgIcon from "@mui/material/SvgIcon";
 import {Link} from "react-router-dom";
 
-const pages = ['Home', 'Speciality Acts', "Pantomime", "Acting", "Upcoming", "Gallery", "Reviews"];
+const pages = ['Home', 'Speciality Acts', "Pantomime", "Acting", "Upcoming", "Gallery"];
 
 function NavBar() {
     return (
@@ -35,9 +35,20 @@ function NavBar() {
                             // <Link to={page}>{page}</Link>
                         ))}
                     </Box>
-                    <SvgIcon component={InstagramIcon} inheritViewBox style={{marginRight: "8px"}} />
-                    <SvgIcon component={TwitterIcon} inheritViewBox style={{marginRight: "12px"}} />
-                    <SvgIcon component={FacebookIcon} inheritViewBox style={{marginRight: "12px"}} />
+                    <div>
+                        <Link style={{textDecoration: "none", color: "inherit"}} target="_blank"
+                              to={"https://www.facebook.com/deanraymondentertainment/?locale=en_GB"}>
+                            <SvgIcon component={FacebookIcon} inheritViewBox style={{marginRight: "12px"}}/>
+                        </Link>
+                        <Link style={{textDecoration: "none", color: "inherit"}} target="_blank"
+                              to={"https://www.instagram.com/deanraymondactor/?hl=en"}>
+                            <SvgIcon component={InstagramIcon} inheritViewBox style={{marginRight: "12px"}}/>
+                        </Link>
+                        <Link style={{textDecoration: "none", color: "inherit"}} target="_blank"
+                              to={"https://twitter.com/deanthemagician?lang=en"}>
+                            <SvgIcon component={TwitterIcon} inheritViewBox style={{marginRight: "24px"}}/>
+                        </Link>
+                    </div>
                     <Button variant="contained" color={"secondary"} size={"medium"} component={Link} to="/EnquireNow">Enquire Now</Button>
                 </Toolbar>
             </Container>
