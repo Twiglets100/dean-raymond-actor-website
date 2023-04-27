@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css",
-    "main.js": "/dean-raymond-actor-website/static/js/main.c362738f.js",
+    "main.js": "/dean-raymond-actor-website/static/js/main.4e8394d3.js",
     "static/media/illusionist.jpg": "/dean-raymond-actor-website/static/media/illusionist.79b9707eac99fc34bde5.jpg",
     "static/media/Kitchen Sink.png": "/dean-raymond-actor-website/static/media/Kitchen Sink.c1ff02773f0644384b1f.png",
     "static/media/magic.jpeg": "/dean-raymond-actor-website/static/media/magic.e29f7f3bd604ed1be3ca.jpeg",
@@ -12,7 +12,7 @@
     "static/media/landing-min.webp": "/dean-raymond-actor-website/static/media/landing-min.bffae950303c9f7acb48.webp",
     "static/media/10.jpg": "/dean-raymond-actor-website/static/media/10.6c1db4b85b3c0b9ef6e5.jpg",
     "static/media/jack and the beanstalk.jpg": "/dean-raymond-actor-website/static/media/jack and the beanstalk.66e2ecef5659bab64be0.jpg",
-    "static/media/1.jpg": "/dean-raymond-actor-website/static/media/1.1c65605f17fdd706d2e1.jpg",
+    "static/media/5.jpg": "/dean-raymond-actor-website/static/media/5.2b30730c34a4e4af2af8.jpg",
     "static/media/2.jpg": "/dean-raymond-actor-website/static/media/2.8f7b12ed42107b29708b.jpg",
     "static/media/9.jpg": "/dean-raymond-actor-website/static/media/9.1906ca71b964caf75798.jpg",
     "static/media/11.jpg": "/dean-raymond-actor-website/static/media/11.f45959838a7d2cf90093.jpg",
@@ -25,11 +25,12 @@
     "static/media/sefton park.jpg": "/dean-raymond-actor-website/static/media/sefton park.182381d5400fb33100f9.jpg",
     "static/media/6.jpg": "/dean-raymond-actor-website/static/media/6.c941a0bffc471d0b6add.jpg",
     "static/media/High Jinx logo.jpg": "/dean-raymond-actor-website/static/media/High Jinx logo.9e997283e75d609662c7.jpg",
+    "static/media/1.jpg": "/dean-raymond-actor-website/static/media/1.a51db538a8dc460bdfdb.jpg",
     "static/media/12.jpg": "/dean-raymond-actor-website/static/media/12.1c65605f17fdd706d2e1.jpg",
     "static/media/4.jpg": "/dean-raymond-actor-website/static/media/4.16f6c3f7a5b5e0f854bf.jpg",
     "static/media/8.jpg": "/dean-raymond-actor-website/static/media/8.40f81d7b6f92eb839bec.jpg",
     "static/media/ventriloquism.jpg": "/dean-raymond-actor-website/static/media/ventriloquism.40f81d7b6f92eb839bec.jpg",
-    "static/media/5.jpg": "/dean-raymond-actor-website/static/media/5.a51db538a8dc460bdfdb.jpg",
+    "static/media/Dean Raymond Acting CV.pdf": "/dean-raymond-actor-website/static/media/Dean Raymond Acting CV.60442cd18251b491ee83.pdf",
     "static/media/ventriloquism-min.jpg": "/dean-raymond-actor-website/static/media/ventriloquism-min.d559e93298ab5e7b240f.jpg",
     "static/media/7.jpg": "/dean-raymond-actor-website/static/media/7.bc1ffb17f7d255153c56.jpg",
     "static/media/spotlight-logo.png": "/dean-raymond-actor-website/static/media/spotlight-logo.f1e244762ff3a4dc70fa.png",
@@ -37,10 +38,10 @@
     "static/media/background.jpg": "/dean-raymond-actor-website/static/media/background.5c8c18a434bbccba6119.jpg",
     "index.html": "/dean-raymond-actor-website/index.html",
     "main.9ce3ac81.css.map": "/dean-raymond-actor-website/static/css/main.9ce3ac81.css.map",
-    "main.c362738f.js.map": "/dean-raymond-actor-website/static/js/main.c362738f.js.map"
+    "main.4e8394d3.js.map": "/dean-raymond-actor-website/static/js/main.4e8394d3.js.map"
   },
   "entrypoints": [
     "static/css/main.9ce3ac81.css",
-    "static/js/main.c362738f.js"
+    "static/js/main.4e8394d3.js"
   ]
 }
