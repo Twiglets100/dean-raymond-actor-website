@@ -1,6 +1,7 @@
 import { Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
 import React from "react";
 import Box from "@mui/material/Box";
+import {Link} from "react-router-dom";
 
 function importAll(r) {
     let images = {};
@@ -19,16 +20,16 @@ const performances = [
             '“Magic, Pure & Simple for all the family”\n',
         imageUrl: images["High Jinx cast tour.jpeg"],
         date: 'Jan - Nov, 2023',
-        time: 'N/A',
         location: 'UK Tour',
+        link: "https://www.highjinx.co.uk/events/"
     },
     {
         title: 'High Jinx at Blackpool Tower Circus',
         description: 'The World-class contemporary variety show High Jinx is back at The Blackpool Tower Circus arena! Created by award-winning illusionist and magician Michael Jordan, High Jinx brings 90 minutes of sensational tricks, illusions, juggling, escapology and much more to The Blackpool Tower Circus.',
         imageUrl: images["High Jinx logo.jpg"],
         date: 'July-November',
-        time: 'N/A',
         location: 'The Blackpool Tower Circus',
+        link: "https://www.theblackpooltower.com/whats-on/events/high-jinx-show/"
     },
     {
         title: 'Autism and Sea',
@@ -37,18 +38,20 @@ const performances = [
         'Join three special under-the-sea characters, Finn, Ollie & Astrid, on their first day of school. In this immersive show experience, ' +
             'no one character is the same and each experiences autism very differently just like us humans. This performance will take place in a Relaxed atmosphere.',
         imageUrl: images["Autism & Sea.png"],
-        date: 'November Touring',
-        time: 'N/A',
+        date: 'October Touring',
         location: 'Touring',
+        offset: 0,
+        link: "https://tickets.thebrindley.org.uk/en-GB/shows/autism%20-%20sea%20-%20live%20on%20stage/info"
     },
     {
         title: 'The Magic of Red Riding Hood',
-        description: '',
+        description: 'Red Riding Hood is a well-known fairy tale about a little girl who wears a red hooded cloak and goes on a journey through the woods to visit her grandmother. Along the way, she encounters a cunning wolf who tricks her into revealing the location of her grandmother\'s house. \n' +
+            'Follow the story as Red tries to escape the wolf with the help of her Granny and her friends like the Wizard of the Forest and Russel Sprout.\n',
         imageUrl: images["Red Riding Hood.jpg"],
         date: 'Summer Touring',
-        time: 'N/A',
         location: 'Touring',
-
+        offset: 18,
+        link: "https://www.magiclightproductions.com/past-productions-1"
     },
     {
         title: 'Kitchen Sink',
@@ -57,9 +60,8 @@ const performances = [
             'kitchen sink? Things aren\'t going to plan for one family in Withernsea, Yorkshire.\n',
         imageUrl: images["Kitchen Sink.png"],
         date: '19th - 20th of June, 2022',
-        time: '7:30 PM',
         location: 'Theatre Colwyn',
-
+        link: "https://theatrcolwyn.co.uk/shows/the-kitchen-sink"
     },
     // Add additional performances as needed
 ];
@@ -72,22 +74,24 @@ const Upcoming = () => {
                     <Box sx={{ width: '30%', marginRight: 2, height: '100%' }}>
                         <CardMedia
                             component="div"
-                            image={performance.imageUrl}
                             title={performance.title}
                             sx={{
                                 height: '100%',
-                                backgroundSize: 'cover'
+                                backgroundSize: 'cover',
+                                backgroundPositionY: `${performance.offset}%`,
+                                backgroundImage: `url("${performance.imageUrl}")`
                             }}
                         />
                     </Box>
                     <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', width: "30%" }}>
                         <div>
                             <Typography variant="h5" component="h2">{performance.title}</Typography>
-                            <Typography variant="subtitle1" color="text.secondary" sx={{ marginTop: 1 }}>{performance.date} at {performance.time}</Typography>
-                            <Typography variant="subtitle1" color="text.secondary">{performance.location}</Typography>
+                            <Typography variant="subtitle1" color="text.secondary" sx={{ marginTop: 1 }}>Date: {performance.date}</Typography>
+                            <Typography variant="subtitle1" color="text.secondary">Location: {performance.location}</Typography>
                         </div>
                         <div style={{display: "flex", justifyContent: "center"}}>
-                            <Button variant="contained" color="secondary" sx={{ alignSelf: 'flex-end' }}>Book Now</Button>
+                            <Button variant="contained" color="secondary" sx={{ alignSelf: 'flex-end' }} component={Link} to={performance.link} target="_blank"
+                                    rel="noopener noreferrer">Book Now</Button>
                         </div>
                     </CardContent>
                     <div style={{width: "50%"}}>

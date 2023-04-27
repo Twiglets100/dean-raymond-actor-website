@@ -24,8 +24,8 @@ export default function QuiltedImageList() {
             sx={{ width: "50%", margin: "auto" }}
             variant="quilted"
             cols={4}
-            rowHeight={121}
-            style={{margin: "120px auto"}}
+            rowHeight={221}
+            style={{margin: "60px auto"}}
         >
             {itemData.map((item) => (
                 <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>

@@ -258,6 +258,7 @@
       <e p="node_modules\react-refresh" t="IncludeRecursive" />
       <e p="node_modules\react-router" t="IncludeRecursive" />
       <e p="node_modules\react-router-dom" t="IncludeRecursive" />
+      <e p="node_modules\react-youtube" t="IncludeRecursive" />
       <e p="node_modules\resolve" t="IncludeRecursive" />
       <e p="node_modules\resolve-url-loader" t="IncludeRecursive" />
       <e p="node_modules\resolve.exports" t="IncludeRecursive" />

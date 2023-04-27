@@ -11,7 +11,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import SvgIcon from "@mui/material/SvgIcon";
 import {Link} from "react-router-dom";
 
-const pages = ['Home', 'Speciality Acts', "Pantomime", "Acting", "Upcoming", "Gallery"];
+const pages = ['Home', 'Speciality Acts', "Acting", "Upcoming", "Gallery"];
 
 function NavBar() {
     return (
