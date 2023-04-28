@@ -1,7 +1,7 @@
 {
   "name": "dean-raymond-entertainment",
   "version": "0.1.0",
-  "homepage": "https://Twiglets100.github.io/dean-raymond-actor-website",
+  "homepage": "https://Twiglets100.github.io",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
